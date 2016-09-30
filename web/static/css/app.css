@@ -1,9 +1,67 @@
+
 /* This file is for your main application css. */
-html,body{
+
+*,html{
 	font: 18px/1.5 "camingodos-web", sans-serif;
+}
+
+body{
+	font-size:1rem;
 	color:#444;
 }
 
-body, h1, h2 ,h3, h4 ,h5, h6{
-	font-family: "camingodos-web", sans-serif;
+.container, .header{
+	display:flex;
 }
+.container{
+	width:1200px;
+	margin:0 auto;
+	flex-flow:column wrap;
+}
+
+.header{
+	width:100vw;
+	flex-flow:row nowrap;
+	padding:0.5rem 1.5rem;
+	border-bottom:4px solid #d33682;
+}
+
+.header > .brand{
+	color: #d33682;
+	font-size:3.2rem;
+	margin:0rem;
+	padding:0rem;
+	font-weight:600;
+	letter-spacing:0.125rem;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.nav.nav-pills {
+	display: flex;
+	flex-flow: row nowrap;
+	margin:0rem;
+	list-style: none;
+}
+.nav.nav-pills > li {
+	margin: 0rem 1rem;
+}
+
+.nav.nav-pills > li > a {
+	text-decoration: none;
+	
+}
+
+h1 {
+	font-size:3rem;
+}
+
+h2 {
+	font-size:2rem;
+}
+

@@ -14,16 +14,17 @@
   </head>
 
   <body>
-    <div class="container">
       <header class="header">
+      <h1 class="brand">Rumbl</h1>
         <nav role="navigation">
-          <ul class="nav nav-pills pull-left">
+          <ul class="nav nav-pills">
             <li><a href="/">Home</a></li>
             <li><a href="/users">Users</a></li>
           </ul>
         </nav>
       </header>
 
+    <div class="container">
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
 
