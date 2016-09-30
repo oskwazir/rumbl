@@ -1,1 +1,9 @@
 /* This file is for your main application css. */
+html,body{
+	font: 18px/1.5 "camingodos-web", sans-serif;
+	color:#444;
+}
+
+body, h1, h2 ,h3, h4 ,h5, h6{
+	font-family: "camingodos-web", sans-serif;
+}
